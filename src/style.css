@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    border: 1px black solid;
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    background-color: gray;
+    height:97.1vh;
+}
+.message-field {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+}
+.layout {
+    height: 100%;
+    width: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.message {
+    background-color: lightblue;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 5px;
+}
+.message-sender {
+    color: gray;
+    font-size: 14px;
+}
+.writer{
+    margin-left: 145px;
+    position: absolute;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+
+}
+.addChat{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    background-color: red;
+    color: black;
+    margin-top: 0;
+    width: 199.4vh;
+    padding-top: 0;
+    justify-content: space-between;
+    height: 25px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+}
