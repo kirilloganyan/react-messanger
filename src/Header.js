@@ -16,15 +16,6 @@ function Header (props){
                         <IconClose  view="primary"/>
                     </Link>
                 </div>
-                <div style={{display:"flex"}}>
-                    <h3>{nick}</h3>
-                    <Link to='/profile'>
-                        <IconUser
-                            size='m'
-                            view="primary"
-                        />
-                    </Link>
-                </div>
             </div>
         )
     }
